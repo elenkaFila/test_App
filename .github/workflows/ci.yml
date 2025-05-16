@@ -3,7 +3,7 @@ name: Python CI with Docker + Allure + GitHub Pages + History
 on:
   push:
     branches: [ main ]
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build-and-test:
