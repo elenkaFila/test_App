@@ -1,2 +1,2 @@
 pytest
-pytest-allure-adaptor
+allure-pytest>=2.13.2
