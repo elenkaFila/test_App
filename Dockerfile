@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["sh", "-c", "pytest && allure generate allure-results -o allure-report --clean"]
+CMD sh -c "PYTHONPATH=/app pytest --alluredir=allure-results && allure generate allure-results -o allure-report --clean"
